@@ -1,0 +1,120 @@
+* {
+    box-sizing: border-box;
+}
+.wrapper {
+    width: 400px;
+    margin: 1.1rem; 
+}
+h1 {
+    text-align: center;
+    font-size: 3rem;
+    color: #dd8d37;
+    font-family: monospace;
+}
+p {
+    width:100%;
+    padding: 2rem;
+    background-color: black;
+    color: white;
+    text-align: right;
+    margin: 0;
+    font-size: 2.3rem;
+}
+.one {
+    display: flex;
+    flex-flow: row nowrap;
+}
+.two {
+    display: flex;
+    flex-flow: row nowrap;
+}.three {
+    display: flex;
+    flex-flow: row nowrap;
+}
+.four {
+    display: flex;
+    flex-flow: row nowrap;
+}
+.last{
+    display: flex;
+    flex-flow: row nowrap;
+}
+.cancel {
+    flex-basis: 50%;
+    color: #000000;
+    background-color: #d8d9db;
+    padding: 2rem ;
+    border: 0;
+    border-right: 1.5px solid #000000;
+    border-bottom: 1.5px solid black;
+    font-size: 2.3rem;
+    font-weight: bold;
+}
+
+.grey_button {
+    flex-basis: 25%;
+    color: #000000;
+    background-color: #d8d9db;
+    padding: 2rem ;
+    font-size: 2rem;
+    font-weight: bold;
+    border: 0;
+    border-bottom: 1.5px solid black;
+    border-right: 1.5px solid black;   
+}
+.grey_button:hover, .grey_btn:hover, .grey_btn2:hover,.cancel:hover, .zero:hover {
+    background-color: #ebebeb;
+}
+.grey_button:active, .grey_btn:active, .grey_btn2:active, .cancel:active, .zero:active {
+    background-color: #bbbcbe;
+}
+.or_button {
+    flex-basis: 25%;
+    color: #ffffff;
+    background-color: #df974c;
+    padding: 2rem ;
+    border: 0;
+    border-bottom: 1.5px solid black;
+    border-left: 1.5px solid black;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.or_button:hover {
+    background-color: #dfb07e;
+}
+.or_button:active {
+    background-color: #dd8d37;
+}
+.grey_btn {
+    flex-basis: 25%;
+    color: #000000;
+    background-color: #d8d9db;
+    padding: 2rem ;
+    font-size: 2rem;
+    font-weight: bold;
+    border: 0;
+    border-bottom: 1.5px solid black;
+    border-right: 1.5px solid black; 
+}
+.grey_btn2 {
+    flex-basis: 25%;
+    color: #000000;
+    background-color: #d8d9db;
+    padding: 2rem ;
+    font-size: 2rem;
+    font-weight: bold;
+    border: 0;
+    border-bottom: 1.5px solid black;
+    border-right: 1.5px solid black;
+    border-left: 1.5px solid black; 
+}
+.zero {
+    flex-basis: 75%;
+    color: #000000;
+    background-color: #d8d9db;
+    padding: 2rem ;
+    font-size: 2rem;
+    font-weight: bold;
+    border: 0;
+    border-right: 1.5px solid black;
+}
